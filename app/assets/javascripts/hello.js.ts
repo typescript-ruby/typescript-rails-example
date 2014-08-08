@@ -1,10 +1,13 @@
-
+/// <reference path="typings/tsd.d.ts" />
 
 class HelloTypeScript {
-    say() :void {
-        console.log("Hello, TypeScript!")
+    say() :string {
+        return "Hello, TypeScript! " + new Date();
     }
 }
 
-var hello = new HelloTypeScript()
-hello.say()
+$(() => {
+    var hello = new HelloTypeScript();
+    $('#hello').text(hello.say());
+});
+
