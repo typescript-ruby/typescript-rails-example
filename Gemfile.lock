@@ -104,14 +104,14 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    typescript-node (0.0.6)
-      typescript-src (~> 1.0)
+    typescript-node (1.0.0)
+      typescript-src (~> 1.0.1)
     typescript-rails (0.2.0)
       railties
       tilt
       typescript-node
-    typescript-src (1.0.0.0)
-    tzinfo (1.2.1)
+    typescript-src (1.0.1.2)
+    tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
